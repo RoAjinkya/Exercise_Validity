@@ -15,7 +15,7 @@ import java.util.Map.Entry;
  *
  */
 public class Main {
-	private static final  String Filename= "Validity Take-Home Exercise.csv";
+	private static final  String Filename= "../Validity Take-Home Exercise.csv";
 
 	/**
 	 * @param args
