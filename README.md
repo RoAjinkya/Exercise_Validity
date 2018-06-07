@@ -1,136 +1,135 @@
 # Exercise_Validity
 Validity Take-Home Exercise
 
-This is a simple Java project.
+This is a Maven project.
 Steps to run this project is as follows:
 1. Clone this repository to your local machine.
-2. Import a this java Project into IDE and run Main.java or
+2. Import a this Maven Project into IDE and run App.java or
 3. Go to src folder and run following command -
-    $ javac com/exercise/validity/Util.java
-    $ javac com/exercise/validity/Main.java
-    $ java com.exercise.validity.Main
+    $ javac validity/src/main/java/Person.java
+    $ javac validity/src/main/java/Helper.java
+    $ javac validity/src/main/java/App.java
+    $ java validity.src.main.java.App
+
+
+
 4. You will see the output as follows
 
+Duplicate Sets---
+Barney,Parncutt,"Collier,"Collier, Grady and Huels",07700 Rutledge Court,,11205,New York,Brooklyn
+Barny,Parncutt,"Collier,"Collier, Grady and Huels",07700 Rutledge Court,,11205,New York,Brooklyn
+Dex,Lainge,"Zieme,"Zieme, Bartoletti Ortiz",43 Grasskamp Way,,99709,Alaska,Fairbanks
+Dex,Lainge,"Zieme,"Zieme, Bartoletti and Ortiz",43 Grasskamp Way,,99709,Alaska,Fairbanks
+Gunther,Bonas,"D'Amore,"D'Amore, Fadel and Welch",1487 American Parkway,Apt 1,92519,California,Riverside
+Gunther,Bonas,"D'Amore,"D'Amore, Fadel and Welch",1487 American Parkway,Apt 1,92519,California,Riverside
+Jacqueline,Ilchenko,Goodwin Inc,Goodwin Inc,jilchenkoe@wisc.edu,,18763,Wilkes Barre,PA,Pennsylvania
+Jacquelyn,Ilchenko,Goodwin Inc,Goodwin Inc,jilchenkoe@wisc.edu,,18763,Wilkes Barre,PA,Pennsylvania
+Kale,Gipp,Klein Group,Klein Group,kgipp3@360.cn,,94975,Petaluma,CA,California
+Kale,Gipp,The Klein Group,The Klein Group,kgipp3@360.cn,,94975,Petaluma,CA,California
+Leonard,Colclough,Hartmann and Sohns,Hartmann and Sohns,lcolclough1h@arizona.edu,,45490,Dayton,OH,Ohio
+Leonard,Colclough,Hartmann and Sons,Hartmann and Sons,lcolclough1h@arizona.edu,,45490,Dayton,OH,Ohio
+Rouvin,Leacock,Monahan and Sons,Monahan and Sons,rleacocki@dailymotion.com,,39534,Biloxi,MS,Mississippi
+Rouvin,Leacock,Monahan and Sons,Monahan and Sons,rleacocki@dailymotion.com,,39534,Biloxi,MS,Mississippi
+Rouvin,Leacock,Monahan and Sons,Monahan and Sons,rleacocki@dailymotion.com,Apt 3,39534,Biloxi,MS,Mississippi
+Rouvin,Leacock,Monahan and Sons,Monahan and Sons,rleacocki@comcast.net,,39534,Biloxi,MS,Mississippi
+Rouvin,Leacock,Monahan and Sons,Monahan and Sons,rleacocki@dailymotion.com,,39534,Biloxi,MS,Mississippi
+Rouvin,Leacock,Monahan and Sons,Monahan and Sons,rleacocki@dailymotion.com,,39534,Biloxi,MS,Mississippi
+Rouvin,Leacock,Monahan and Sons,Monahan and Sons,rleacocki@comcast.net,,39534,Biloxi,MS,Mississippi
+Stanfield,Rown,Reilly-Champlin,Reilly-Champlin,srown1t@loc.gov,,77005,Houston,TX,Texas
+Stanfield,Rown,Reilly-Champlin Company,Reilly-Champlin Company,srown1t@loc.gov,,,,,
+Thekla,Salman,Google,Google,tsalman2n@histats.com,,91210,Glendale,CA,California
+Thekla,Salman,Morissette-Rice,Morissette-Rice,tsalman2n@histats.com,,91210,Glendale,CA,California
 
-    Dublicate set 1:
-ID : 19,Rouvin,Leacock,Monahan and Sons,rleacocki@comcast.net,02254 Delladonna Road,,39534,Biloxi,Mississippi,MS,228-265-4371
-ID : 19,Rouvin,Leacock,Monahan and Sons,rleacocki@comcast.net,02254 Delladonna Road,,39534,Biloxi,Mississippi,MS,228-265-4371
-Dublicate set 2:
-ID : 19,Rouvin,Leacock,Monahan and Sons,rleacocki@dailymotion.com,02254 Delladonna Road,,39534,Biloxi,Mississippi,MS,228-265-4371
-ID : 19,Rouvin,Leacock,Monahan and Sons,rleacocki@dailymotion.com,02254 Delladonna Road,,39534,Biloxi,Mississippi,MS,228-265-4371
-ID : 19,Rouvin,Leacock,Monahan and Sons,rleacocki@dailymotion.com,02254 Delladonna Road,,39534,Biloxi,Mississippi,MS,228-265-4371
-ID : 19,Rouvin,Leacock,Monahan and Sons,rleacocki@dailymotion.com,02254 Delladonna Road,,39534,Biloxi,Mississippi,MS,228-265-4371
-Dublicate set 3:
-ID : 38,Gunther,Bonas,"D'Amore, Fadel and Welch",gbonas11@tripod.com,1487 American Parkway,Apt 1,92519,Riverside,California,CA,951-933-6645
-ID : 38,Gunther,Bonas,"D'Amore, Fadel and Welch",gbonas11@tripod.com,1487 American Parkway,Apt 1,92519,Riverside,California,CA,951-933-6645
 
-
-Non-Dublicate 
-Giacopo Storch,CA
-Manon Eadington,PA
-Hunter Ketch,District of Columbia
-Akim McAlpine,California
-Merrily Jerram,Missouri
-Galvin Chevin,Colorado
-Marti Berryman,MN
-Laverne Baszkiewicz,Pennsylvania
-Jacqueline Ilchenko,PA
-Bob Tremmel,Montana
-Beatrix Watton,KY
-Janeczka Addie,CA
-Freemon Konzel,NV
-Kale Gipp,CA
-Gibb Bezarra,IL
-Betsy Crehan,MI
-Katalin Samet,Alabama
-Thekla Salman,CA
-Jacob Dehmel,Virginia
-Devin Szapiro,NC
-Evered Spyvye,NY
-Siward Grint,CO
-Eleanora Konert,CO
-Dex Lainge,Alaska
-Sigfrid Oldknow,CA
-Abba Blethyn,TN
-first_name last_name,state
-Corie Santora,CO
-Analise Doorbar,FL
-Claretta Atheis,CA
-Northrop Rickword,CT
-Yorke Kingsbury,Illinois
-Lorrayne Broadley,MI
-Jessee Waldron,TX
-Bernie Stuer,Virginia
-Georgy Dowker,CA
-Aurelea McKenney,IN
+Non Duplicates----
 Donalt Canter,IA
-Charlena Tuckett,Rhode Island
-Stanfield Rown,
-Jehu Wood,CA
-Barney Parncutt,New York
-Felipa Shadrack,KY
-Brianna Gudeman,NY
-Basilius Rogans,WA
-Leonard Colclough,OH
-Rania Condict,MA
-Sylas MacSharry,VA
-Charita Leynton,MD
 Daphene McArthur,Georgia
-Saudra Osman,TX
-Karolina Ornells,Utah
-Kale Gipp,CA
-Emiline Roughey,CA
-Niko Endicott,AL
-Jacquelyn Ilchenko,PA
-Stanfield Rown,TX
-Tonnie Bewshire,NY
-Kial Cressor,Texas
-Barny Parncutt,New York
-Jan Ostridge,CA
-Jeddy Woodhead,New Mexico
-Shep Pury,CA
-Mattie Gantley,CA
-Evelin Amburgy,MN
-Thomasa Ivimy,VA
-Guinna Labden,TX
-Ardra Mulheron,AL
-Renell Gass,NV
-Austine Imison,Washington
+Akim McAlpine,California
+Analise Doorbar,FL
 Lewes Stainland,NC
-De witt Mariel,NC
-Flora Mergue,MO
-Betty Berends,CA
-Dougie Sayton,CA
-Rose Casella,MI
-Ethelred Shubotham,NC
-Leonard Colclough,OH
-Goran June,Virginia
-Aliza Dessant,CA
-Roxanna Gibbens,California
-Dex Lainge,Alaska
-Giffy Scotchmor,Texas
-Data Incompelete
-Cullen Cumberland,OH
-Mendy Spaxman,NY
-Neal Tarbet,TX
-Rouvin Leacock,MS
-Vonnie Bullick,New York
-Padget Blabber,PA
-Kameko Mearing,Utah
-Alvinia Dransfield,MA
-Amelia Hindrick,Florida
-Shandra Stenet,KY
-Gwynne Eddington,Colorado
-Wendy Patrone,CA
-Thekla Salman,CA
-Lewes Balaison,CO
-Teirtza Baudesson,TX
+Evelin Amburgy,MN
 Filide Ricci,NC
-Emogene Obey,CA
-Aurie Howlett,CA
-Finlay Heaven,NY
-Fawnia Tireman,New York
-Wilmar Raper,MI
+Merrily Jerram,Missouri
+Betty Berends,CA
+Janeczka Addie,CA
+Gwynne Eddington,Colorado
+Guinna Labden,TX
+Devin Szapiro,NC
+Cullen Cumberland,OH
+Betsy Crehan,MI
+Mattie Gantley,CA
+Alvinia Dransfield,MA
+Mendy Spaxman,NY
+De witt Mariel,NC
+Shandra Stenet,KY
+Giacopo Storch,CA
+Bob Tremmel,Montana
+Roxanna Gibbens,California
+Ethelred Shubotham,NC
 Gavin Trimming,Massachusetts
-
+Jessee Waldron,TX
+Sigfrid Oldknow,CA
+Vonnie Bullick,New York
+Lewes Balaison,CO
+Saudra Osman,TX
+Katalin Samet,Alabama
+Yorke Kingsbury,Illinois
+Emiline Roughey,CA
+Flora Mergue,MO
+Jan Ostridge,CA
+Charlena Tuckett,Rhode Island
+Giffy Scotchmor,Texas
+Charita Leynton,MD
+Georgy Dowker,CA
+Freemon Konzel,NV
+Aurelea McKenney,IN
+Gibb Bezarra,IL
+Eleanora Konert,CO
+Aurie Howlett,CA
+Padget Blabber,PA
+Rose Casella,MI
+Renell Gass,NV
+Jeddy Woodhead,New Mexico
+Aliza Dessant,CA
+Evered Spyvye,NY
+Manon Eadington,PA
+Jehu Wood,CA
+Emogene Obey,CA
+Felipa Shadrack,KY
+Dougie Sayton,CA
+Hunter Ketch,District of Columbia
+Galvin Chevin,Colorado
+Niko Endicott,AL
+Claretta Atheis,CA
+Lorrayne Broadley,MI
+Marti Berryman,MN
+Sylas MacSharry,VA
+Goran June,Virginia
+Laverne Baszkiewicz,Pennsylvania
+Neal Tarbet,TX
+Basilius Rogans,WA
+Shep Pury,CA
+Fawnia Tireman,New York
+Beatrix Watton,KY
+Karolina Ornells,Utah
+Thomasa Ivimy,VA
+Bernie Stuer,Virginia
+Jacob Dehmel,Virginia
+Corie Santora,CO
+Northrop Rickword,CT
+Rania Condict,MA
+Finlay Heaven,NY
+Wendy Patrone,CA
+Kial Cressor,Texas
+Wilmar Raper,MI
+Kameko Mearing,Utah
+Abba Blethyn,TN
+Siward Grint,CO
+Teirtza Baudesson,TX
+Brianna Gudeman,NY
+Austine Imison,Washington
+Amelia Hindrick,Florida
+Tonnie Bewshire,NY
+Ardra Mulheron,AL
+  
 
